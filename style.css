@@ -102,10 +102,23 @@ body {
     margin: 0;
 }
 
+.logo-row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 15px;
+}
+
 .card-logo {
     max-width: 200px;
     height: auto;
-    margin-bottom: 15px;
+    margin-bottom: 0;
+}
+
+.logo-emoji {
+    font-size: 3rem;
+    line-height: 1;
 }
 
 /* Footer */
