@@ -29,7 +29,7 @@ body {
 }
 
 .title {
-    font-size: 3rem;
+    font-size: 6rem;
     font-weight: 600;
     color: #2c3e50;
     margin-bottom: 10px;
@@ -119,7 +119,7 @@ footer p {
 /* Mobile */
 @media (max-width: 768px) {
     .title {
-        font-size: 2.5rem;
+        font-size: 5rem;
     }
     
     .links {
