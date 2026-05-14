@@ -43,10 +43,11 @@ body {
 }
 
 .title {
-    font-size: 12rem;
+    font-size: 36rem;
     font-weight: 600;
     color: #2c3e50;
     margin-bottom: 10px;
+    line-height: 1;
 }
 
 .subtitle {
