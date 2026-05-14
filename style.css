@@ -67,7 +67,7 @@ body {
 /* Image Gallery */
 .gallery {
     text-align: center;
-    padding: 40px 30px;
+    padding: 20px 30px 40px 30px;
     max-width: 1200px;
     margin: 0 auto;
 }
