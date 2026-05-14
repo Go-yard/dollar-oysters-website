@@ -242,4 +242,12 @@ footer p {
         height: 150px;
         font-size: 0.9rem;
     }
+    
+    .gisselbrecht-desktop {
+        display: none !important;
+    }
+    
+    .gisselbrecht-mobile {
+        display: block !important;
+    }
 }
