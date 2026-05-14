@@ -113,12 +113,18 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 10px;
+    gap: 8px;
     margin-bottom: 8px;
 }
 
 .card-logo-small {
     max-width: 90px;
+    height: auto;
+    margin-bottom: 0;
+}
+
+.oyster-logo-small {
+    max-width: 72px;
     height: auto;
     margin-bottom: 0;
 }
