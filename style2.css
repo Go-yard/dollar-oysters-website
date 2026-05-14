@@ -40,6 +40,8 @@ body {
 
 .title-section {
     text-align: center;
+    overflow: visible;
+    min-width: 0;
 }
 
 .title {
