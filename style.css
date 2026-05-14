@@ -63,14 +63,21 @@ body {
     gap: 50px;
 }
 
+/* Bottom Layout */
+.bottom-layout {
+    display: grid;
+    grid-template-columns: 280px 1fr 280px;
+    gap: 40px;
+    align-items: center;
+    max-width: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0 30px 40px 30px;
+}
+
 /* Image Gallery */
 .gallery {
     text-align: center;
-    margin-bottom: 40px;
-    padding: 0 20px;
-    max-width: 900px;
-    margin-left: auto;
-    margin-right: auto;
 }
 
 .image-placeholder {
@@ -160,6 +167,11 @@ footer p {
 /* Mobile */
 @media (max-width: 768px) {
     .top-layout {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+    
+    .bottom-layout {
         grid-template-columns: 1fr;
         gap: 20px;
     }
