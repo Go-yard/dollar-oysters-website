@@ -79,11 +79,45 @@ body {
 
 /* Bottom Banners */
 .bottom-banners {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 40px;
     padding: 0 30px 40px 30px;
-    max-width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Circle Banner */
+.circle-banner-section {
+    text-align: center;
+    padding: 20px 30px 60px 30px;
+}
+
+.circle-banner {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background: #ffffff;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+    text-decoration: none;
+    color: #2c3e50;
+    font-weight: 600;
+    font-size: 1rem;
+    text-align: center;
+    padding: 20px;
+    transition: all 0.3s ease;
+    border: 2px solid #e9ecef;
+}
+
+.circle-banner:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
+    text-decoration: none;
+    color: #2c3e50;
+}
+
+.circle-banner p {
+    margin: 0;
 }
 
 .image-placeholder {
@@ -176,16 +210,17 @@ footer p {
         gap: 20px;
     }
     
-    .bottom-banners {
-        grid-template-columns: 1fr;
-        gap: 20px;
-    }
-    
     .title {
         font-size: 4rem;
     }
     
     .side-card {
         min-height: auto;
+    }
+    
+    .circle-banner {
+        width: 150px;
+        height: 150px;
+        font-size: 0.9rem;
     }
 }
